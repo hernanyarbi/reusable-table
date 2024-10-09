@@ -28,14 +28,17 @@ const App = () => {
       {
         key: 'id',
         header: 'ID',
+        type: 'text'
       },
       {
         key: 'name',
         header: 'Nombre',
+         type: 'text'
       },
       {
         key: 'email',
         header: 'Correo Electrónico',
+         type: 'text'
       },
     ],
   };
@@ -76,14 +79,17 @@ const App = () => {
       {
         key: 'id',
         header: 'ID',
+         type: 'text'
       },
       {
         key: 'name',
         header: 'Nombre',
+         type: 'text'
       },
       {
         key: 'price',
         header: 'Precio',
+         type: 'money'
       },
     ],
   };
