@@ -6,4 +6,5 @@ export interface TableConfig<T> {
 export interface TableColum<T>{
     key: keyof T
     header: string
+    type: 'text'|'money'
 }
