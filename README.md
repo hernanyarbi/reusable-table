@@ -1,11 +1,13 @@
-# Rsbuild Project
+# Reusable Table Component
+
+The idea is to have a component to reuse in different project, only to copy the structure.
 
 ## Setup
 
 Install the dependencies:
 
 ```bash
-pnpm install
+yarn install
 ```
 
 ## Get Started
@@ -13,17 +15,5 @@ pnpm install
 Start the dev server:
 
 ```bash
-pnpm dev
-```
-
-Build the app for production:
-
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
+yarn dev
 ```
